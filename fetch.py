@@ -125,7 +125,7 @@ vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1NUU4Nlx1Nzk1RFx1NEUyRFx1NTM0RVx1NEVC
 
 d = datetime.datetime.now()
 if STOP or ((d.month, d.day) in ((6, 4), (7, 1), (10, 1)) and not (LOCAL or PROXY)):
-    DEBUG_NO_NODES = DEBUG_NO_DYNAMIC = STOP = True
+    DEBUG_NO_NODES = DEBUG_NO_DYNAMIC = STOP = False
     NAME_SHOW_TYPE = NAME_NO_FLAGS = NAME_SHOW_SRC = False
     BANNED_WORDS = []
 
